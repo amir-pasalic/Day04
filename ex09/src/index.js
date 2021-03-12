@@ -1,8 +1,11 @@
 function main() {
   // Only change code below this line
-  var firstNum = 6;
-  var secondNum = 25;
-  var thirdNum = 5.2;
+  var firstNum;
+  var secondNum;
+  var thirdNum;
+  firstNum = 6;
+ secondNum = 25;
+  thirdNum = 5.2;
   firstNum *= 9;
   thirdNum *= 10;
   secondNum /= 5;
@@ -17,4 +20,4 @@ function main() {
 
 console.log(main());
 
-module.expoerts = main;
+module.exports = main;

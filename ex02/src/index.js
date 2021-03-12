@@ -1,5 +1,6 @@
 function main() {
-  var myRes = 75;
+  var myRes;
+  myRes = 75;
   // Only change code below this line
   myRes++;
   // Only change code below this line
@@ -9,4 +10,4 @@ function main() {
 
 console.log(main());
 
-module.export = main;
+module.exports = main;

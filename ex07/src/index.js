@@ -12,4 +12,4 @@ console.log(main(5, 2)); // change this line
 console.log(main(15, 4));
 console.log(main(102, 25));
 
-module.expoerts = main;
+module.exports = main;

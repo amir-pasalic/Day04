@@ -1,8 +1,12 @@
 function main() {
   // Only change code below this line
-  var myFirstName = "Amir";
-  var myLastName = "Pasalic";
-  var myHomeTown = "Bosanska Krupa";
+  var myFirstName;
+  var myLastName;
+  var myHomeTown;
+myFirstName = "Amir";
+ myLastName = "Pasalic";
+ myHomeTown = "Bosanska Krupa";
+
 
   // Only change code above this line
 
@@ -15,4 +19,4 @@ function main() {
 
 console.log(main());
 
-module.expoerts = main;
+module.exports = main;
